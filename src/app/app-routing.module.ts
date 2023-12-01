@@ -10,6 +10,7 @@ import { EmitterComponent } from './componentes/emitter/emitter.component';
 import { PipesComponent } from './componentes/pipes/pipes.component';
 import { TwoWayBindingComponent } from './componentes/two-way-binding/two-way-binding.component';
 import { DetalhesItemComponent } from './componentes/detalhes-item/detalhes-item.component';
+import { DataFormComponent } from './componentes/data-form/data-form.component';
 
 const routes: Routes = [
   {path: '', component: PrimeiroComponenteComponent},
@@ -20,7 +21,8 @@ const routes: Routes = [
   {path: 'eventos', component: EventosComponent},
   {path: 'emitter', component: EmitterComponent},
   {path: 'pipes', component: PipesComponent},
-  {path: 'two-way-binding', component: TwoWayBindingComponent}
+  {path: 'two-way-binding', component: TwoWayBindingComponent},
+  {path: 'form', component: DataFormComponent}
 ];
 
 @NgModule({

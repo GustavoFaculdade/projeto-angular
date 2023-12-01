@@ -13,9 +13,10 @@ import { ListRenderComponent } from './componentes/list-render/list-render.compo
 import { PipesComponent } from './componentes/pipes/pipes.component';
 import { TwoWayBindingComponent } from './componentes/two-way-binding/two-way-binding.component';
 import { PrimeiroComponenteComponent } from './componentes/primeiro-componente/primeiro-componente.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { DetalhesItemComponent } from './componentes/detalhes-item/detalhes-item.component';
+import { DataFormComponent } from './componentes/data-form/data-form.component';
 
 @NgModule({
   declarations: [
@@ -30,13 +31,15 @@ import { DetalhesItemComponent } from './componentes/detalhes-item/detalhes-item
     PipesComponent,
     TwoWayBindingComponent,
     PrimeiroComponenteComponent,
-    DetalhesItemComponent
+    DetalhesItemComponent,
+    DataFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
