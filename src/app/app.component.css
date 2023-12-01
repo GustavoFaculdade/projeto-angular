@@ -1,0 +1,44 @@
+*{
+    font-family: Helvetica;
+}
+
+body{
+    padding-bottom: 500px;
+}
+
+.aula{
+    border-bottom: 1px solid red;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid #665;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+ul li a {
+    color: red;
+    text-decoration: none;
+    transition: 0.5s;
+}
+ul li a:hover {
+    color: rgb(15, 89, 150);
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+}
